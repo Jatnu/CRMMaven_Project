@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="CRM_PagesTest.CRMHomePageTest">
+        <methods>
+          <include name="ContactsPagenavigationtest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- CRM_PagesTest.CRMHomePageTest -->
+      <class name="CRM_PagesTest.CRMNewContactPageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- CRM_PagesTest.CRMNewContactPageTest -->
+      <class name="CRM_PagesTest.CRMLoginPageTest">
+        <methods>
+          <include name="loginpagetest"/>
+          <include name="CRMLogintest"/>
+          <include name="CRMLogin"/>
+          <include name="clean"/>
+        </methods>
+      </class> <!-- CRM_PagesTest.CRMLoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Data provider(failed)">
+    <classes>
+      <class name="CRM_PagesTest.CRMHomePageTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- CRM_PagesTest.CRMHomePageTest -->
+      <class name="CRM_PagesTest.CRMNewContactPageTest">
+        <methods>
+          <include name="dummytest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- CRM_PagesTest.CRMNewContactPageTest -->
+      <class name="CRM_PagesTest.CRMLoginPageTest">
+        <methods>
+          <include name="loginpagetest"/>
+          <include name="clean"/>
+        </methods>
+      </class> <!-- CRM_PagesTest.CRMLoginPageTest -->
+    </classes>
+  </test> <!-- Data provider(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

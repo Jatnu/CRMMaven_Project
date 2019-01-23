@@ -1,0 +1,44 @@
+package CRMPages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import BasePackage.CRMBase;
+
+public class CRMHomePage extends CRMBase {
+	
+  @FindBy(xpath ="//*[@title='Contacts']") WebElement Contacts;
+  
+  @FindBy(xpath="//a[text()='New Contact']") WebElement NewContact;
+
+
+  
+  public CRMHomePage(){
+	  PageFactory.initElements(driver, this);
+  }
+
+  
+  
+  
+    public String HomepageTitle() {
+    	 String acttitle = driver.getTitle();
+    	 return acttitle ;
+    }
+  
+  public CRMNewContactsPage ContactsPagenavigation() {
+	
+	  
+  	   Actions action = new Actions(driver);
+  	   action.moveToElement(Contacts).build().perform();
+  	   
+  	   NewContact.click();
+  	    
+  	   return new CRMNewContactsPage() ;
+  	   
+	  
+  }
+	
+	
+}

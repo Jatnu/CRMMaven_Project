@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25913" started-at="2018-07-16T13:15:00Z" finished-at="2018-07-16T13:15:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25913" started-at="2018-07-16T13:15:00Z" finished-at="2018-07-16T13:15:26Z">
+      <class name="CRM_PagesTest.CRMLoginPageTest">
+        <test-method status="PASS" signature="loginpagetest()[pri:0, instance:CRM_PagesTest.CRMLoginPageTest@d8355a8]" name="loginpagetest" is-config="true" duration-ms="8421" started-at="2018-07-16T18:45:00Z" finished-at="2018-07-16T18:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetest -->
+        <test-method status="PASS" signature="CRMLogintest()[pri:0, instance:CRM_PagesTest.CRMLoginPageTest@d8355a8]" name="CRMLogintest" duration-ms="24" started-at="2018-07-16T18:45:08Z" finished-at="2018-07-16T18:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMLogintest -->
+        <test-method status="PASS" signature="loginpagetest()[pri:0, instance:CRM_PagesTest.CRMLoginPageTest@d8355a8]" name="loginpagetest" is-config="true" duration-ms="7758" started-at="2018-07-16T18:45:08Z" finished-at="2018-07-16T18:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetest -->
+        <test-method status="PASS" signature="CRMLogin()[pri:0, instance:CRM_PagesTest.CRMLoginPageTest@d8355a8]" name="CRMLogin" duration-ms="9701" started-at="2018-07-16T18:45:16Z" finished-at="2018-07-16T18:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMLogin -->
+      </class> <!-- CRM_PagesTest.CRMLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+	<test name="Test">
+		<classes>
+			
+				<!-- <class name="CRM_PagesTest.CRMNewContactPageTest"/> -->
+				<class name="CRM_PagesTest.CRMHomePageTest">
+                 
+					<methods>
+						<exclude name="VerifylinksTest" />
+					</methods>
+					</class>
+					
+					<class name="CRM_PagesTest.CRMLoginPageTest"/>
+		
+		     </classes>
+	</test>
+
+	<test name="Data provider">
+
+		<classes>
+			<class name="CRM_PagesTest.CRMNewContactPageTest">
+				<methods>
+					<exclude name="validateCreateNewContact" />
+
+				</methods>
+			</class>
+
+		</classes>
+
+	</test>
+</suite> <!-- Suite -->

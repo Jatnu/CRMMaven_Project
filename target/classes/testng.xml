@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Capital Group Automation Test Suite">
+
+
+
+  <test name="Capital Group Test Cases">
+    <classes>
+      <class name="CRM_PagesTest.CRMHomePageTest"/>
+      <class name="CRM_PagesTest.CRMLoginPageTest"/>
+      <class name="CRM_PagesTest.CRMNewContactPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
